@@ -7,9 +7,9 @@ const Navbar = () => {
   const [openMobileNav, setOpenMobileNav] = useState(false);
 
   return (
-    <nav className="flex flex-row gap-5 pl-10 pr-10 pt-5 justify-between items-center xl:w-full bg-[#3ebfff] font-Barlow relative">
+    <nav className="flex flex-row gap-5 pl-10 pr-10 pt-10 justify-between items-center xl:w-full bg-[#3ebfff] font-Barlow relative">
       <div>
-        <a href="#" className="cursor-pointer">
+        <a href="#" className="cursor-pointer" aria-label="Home">
           <Logo className="fill-white" />
         </a>
       </div>

@@ -8,7 +8,7 @@ import Gallery from '../components/Gallery/Gallery';
 
 const Landing = () => {
   return (
-    <>
+    <main>
       <HeroSection />
       {infoData.map((info, index) => (
         <InfoSection
@@ -23,7 +23,7 @@ const Landing = () => {
       <ImageCard />
       <Testimonial />
       <Gallery />
-    </>
+    </main>
   );
 };
 
