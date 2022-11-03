@@ -1,30 +1,7 @@
-# Frontend Mentor - Sunnyside agency landing page solution
-
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
-
-### Screenshot
-
-![](.screenshots/Screenshot.png)
-
-### Links
-
-- Solution URL: [Solution](https://your-solution-url.com)
-
-## My process
-
-### Built with
-
-- [React](https://reactjs.org/) - JS library
-- [tailwind](https://tailwindcss.com/) - For styles
-
-### What I learned
-
-I used this project to learn tailwindcss and to gain a better understanding of React Dynamic Components.
-
-customized the default tailwind theme
-
-```js
-theme: {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
     container: {
       center: true,
     },
@@ -61,10 +38,6 @@ theme: {
       'card-graphic': "url('./assets/img/desktop/image-graphic-design.jpg')",
       'card-photo': "url('./assets/img/desktop/image-photography.jpg')",
     },
-  }
-```
-
-## Author
-
-- Website - [Rowan Connaughton](https://rowanconnaughton.com/)
-- Frontend Mentor - [@RowanConnaughton](https://www.frontendmentor.io/profile/RowanConnaughton)
+  },
+  plugins: [],
+};
